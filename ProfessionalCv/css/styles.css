@@ -7,21 +7,27 @@
 
 .sign {
   color: #EAF6F6;
-  text-align: center;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 
 .middleContainer {
-  color: #40514E;
   margin-top: 80px;
 }
+
 .Skills {
   margin-top: 80px;
 }
 
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+}
+
+p {
+  line-height: 2;
 }
 
 h1 {
@@ -37,6 +43,7 @@ h2 {
   font-size: 2.5rem;
   color: #66BFBF;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -54,24 +61,25 @@ h3 {
 
 .bottomcloud {
   position: absolute;
-  left: 400px;
+  left: 250px;
   bottom: 300px;
 }
 
 .topcloud {
   position: absolute;
   right: 400px;
-  top:50px;
+  top:40px;
 }
 
 .bottom-container {
   background-color: #66BFBF;
   position: relative;
-  padding-top: 80px;
+  padding-top: 50px;
 }
 
 a {
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
   padding: 120;
   margin: 42;
   line-height: 1em;
@@ -79,6 +87,11 @@ a {
   text-decoration: none;
   margin-right: 40px;
   text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
 
 .Skill-row {
@@ -102,8 +115,8 @@ hr {
   border-width: 6px;
   border-style: none;
   border-top-style: dotted;
-  border-color: #EAF6F6;
-  width: 5%;
+  border-color: #A9A9A9;
+  width: 4%;
   margin-top: 80px;
 }
 
